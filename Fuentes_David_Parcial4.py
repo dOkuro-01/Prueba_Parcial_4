@@ -15,7 +15,7 @@ def reservar(reservas, stock):
         return reservas, stock
 
     if nombre in reservas:
-        print("Ya Hya una reserva a este nombre.")
+        print("Ya Hay una reserva a este nombre.")
         return reservas, stock
 
     if stock < 1:
